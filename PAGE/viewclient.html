@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>View Clients</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Client List</h1>
+
+<table border="1" width="100%">
+
+<tr>
+
+<th>Name</th>
+
+<th>Phone</th>
+
+<th>Loan</th>
+
+<th>Action</th>
+
+</tr>
+
+<tr>
+
+<td>Rahul</td>
+
+<td>9876543210</td>
+
+<td>50000</td>
+<td><button onclick="deleteRow(this)">Delete</button></td>
+
+</tr>
+
+<tr>
+
+<td>Aman</td>
+
+<td>9123456780</td>
+
+<td>80000</td>
+<td><button>Delete</button></td>
+
+</tr>
+
+</table>
+
+</div>
+<td><button onclick="deleteRow(this)">Delete</button></td>
+</body>
+
+</html>
+
+<input type="text" id="search" placeholder="Search Client" onkeyup="searchClient()">
+<br><br>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>View Clients</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Client List</h1>
+
+<input type="text" id="search" placeholder="Search Client" onkeyup="searchClient()">
+
+<br><br>
+
+<table border="1" width="100%" id="clientTable">
+
+<tr>
+
+<th>Name</th>
+
+<th>Amount</th>
+
+<th>Delete</th>
+
+</tr>
+
+</table>
+
+</div>
+
+<script src="../JS/script.js"></script>
+
+</body>
+
+</html>
